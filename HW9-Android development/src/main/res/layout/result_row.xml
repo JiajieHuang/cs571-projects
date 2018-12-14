@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="52dp"
+        android:layout_height="39dp"
+        app:srcCompat="@drawable/heart_fill_red" />
+
+    <LinearLayout
+        android:id="@+id/middle"
+        android:layout_width="259dp"
+        android:layout_height="68dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/place_name"
+            android:layout_width="255dp"
+            android:layout_height="35dp"
+            android:text="TextView"
+            android:textColor="@android:color/black"
+            tools:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/place_address"
+            android:layout_width="242dp"
+            android:layout_height="43dp"
+            android:text="TextView" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/heart"
+        android:layout_width="49dp"
+        android:layout_height="38dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/heart_outline_black"
+
+        />
+
+</LinearLayout>
